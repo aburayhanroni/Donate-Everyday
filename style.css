@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.top-banner{
+    width: 750px;
+    margin: auto;
+}
+.top-banner-part{
+    background-image: url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+.overly{
+    background-image: linear-gradient(rgba(26, 25, 25, 0.03),rgb(0, 0, 0));
+    height: 600px;
+}
+.top-banner-part h1{
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: bolder;  
+    padding-top: 100px;
+    height: 80px;
+}
+.top-banner-part p{
+    color: whitesmoke;
+    padding: 50px 100px;
+}
+.top-banner-part a{
+    color: whitesmoke;
+    padding: 15px 20px;
+    background-color: tomato;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+/* end top banner part */
