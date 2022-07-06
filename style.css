@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -13,11 +15,19 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    
-}
+    }
 .overly{
     background-image: linear-gradient(rgba(26, 25, 25, 0.03),rgb(0, 0, 0));
     height: 600px;
+}
+h1{
+    color: rgb(2, 2, 2);
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    color: rgb(61, 57, 57);
+    padding: 20px 0px ;
+    font-family: 'Open Sans', sans-serif;
 }
 .top-banner-part h1{
     color: whitesmoke;
@@ -68,7 +78,7 @@ body{
     background-color: rgba(255, 103, 77, 0.425);
     border: 2px solid rgb(255, 38, 0);
 }
-input{
+input {
     color: rgba(102, 100, 100, 0.473);
     width: 750px;
     border: none;
@@ -97,7 +107,7 @@ input{
 .service-box .box{
     width: 300px;
     margin: 10px;
-    padding: 50px 20px;
+    padding: 50px 0px 20px 20px;
     border-radius: 5px;
 }
 .service-box .food-family{
@@ -111,3 +121,67 @@ input{
 }
 
 /* plan area code end here */
+
+.articale-part{
+    margin: 0px 150px;
+
+}
+.articale-part-one{
+    display: flex;
+}
+.articale-part-two{
+    display: flex;
+}
+
+.image img{
+    width: 90%;
+    padding: 5%;
+    border-radius: 35px;
+}
+.articale{
+    width: 90%;
+    padding-top: 20px;
+}
+
+/* articale part end */
+
+.update-part{
+    text-align: center;
+}
+
+.subcribe-area{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px 0px 0px;
+    border-radius: 5px;
+    background-color: tomato;
+    margin: none;
+}
+.subscribe-fild{
+    width: 300px;
+    border: none;
+    text-align: left;
+    
+}
+.subscribe-button{
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+}
+
+
+
+
+footer{
+    text-align: center;
+    background-color:rgba(10, 9, 20, 0.856);
+}
+footer h2{
+    padding-top: 30px;
+    color: orange;
+}
+footer p{
+    padding-bottom: 30px;
+    color: white;
+}
