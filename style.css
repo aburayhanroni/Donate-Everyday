@@ -27,10 +27,10 @@ body{
     height: 80px;
 }
 .top-banner-part p{
-    color: whitesmoke;
+    color: rgba(229, 226, 226, 0.938);
     padding: 50px 100px;
 }
-.top-banner-part a{
+.donate-button{
     color: whitesmoke;
     padding: 15px 20px;
     background-color: tomato;
@@ -41,3 +41,73 @@ body{
 }
 
 /* end top banner part */
+.donate-area{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.donate-today{
+    margin: auto;
+    width: 750px;
+    text-align: center;
+}
+.donate-today h1{
+    font-size: 60px;
+}
+.donate-today ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px;
+    background-color: rgba(133, 126, 125, 0.37);
+    width: 60px;
+    margin: 14px;
+    border-radius: 5px;
+    color: rgba(17, 17, 17, 0.836);
+}
+#secend-button{
+    color: rgb(255, 38, 0);
+    background-color: rgba(255, 103, 77, 0.425);
+    border: 2px solid rgb(255, 38, 0);
+}
+input{
+    color: rgba(102, 100, 100, 0.473);
+    width: 750px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    border-bottom: 2px solid rgba(102, 100, 100, 0.253);
+}
+
+/* donate today part code area end */
+
+.plane-area{
+    margin: 150px;
+}
+.service-plan{
+    text-align: center;
+}
+.service-plan p{
+    padding: 0px 200px;
+}
+.service-box{
+    display: flex;
+    justify-content: center;
+}
+.service-box .box{
+    width: 300px;
+    margin: 10px;
+    padding: 50px 20px;
+    border-radius: 5px;
+}
+.service-box .food-family{
+    background-color: rgba(184, 120, 120, 0.692);
+}
+.shelter-family{
+    background-color: rgba(111, 165, 100, 0.473);
+}
+.service-box .education{
+    background-color: rgba(80, 136, 124, 0.486);
+}
+
+/* plan area code end here */
